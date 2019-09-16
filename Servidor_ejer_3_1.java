@@ -1,3 +1,9 @@
+
+/*
+
+Este servidor permite la comunicación con la clase HiloCliente_ejer_3_3
+
+*/
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.ServerSocket;
