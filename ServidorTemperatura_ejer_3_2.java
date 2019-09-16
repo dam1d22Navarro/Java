@@ -1,4 +1,7 @@
-
+/*
+   Este servidor devuelve una temperatura al servidor TCP y entonces en cualquier navegador introducimos el puerto del servidor TCP
+   y tenemos que visualizar en el navegador ese valor.
+*/
 
 import java.io.IOException;
 import java.net.DatagramPacket;
@@ -21,7 +24,6 @@ public class serverTemperatura {
                     socketUDP.receive(peticion);
 
 
-                    /*Lo que yo os di  realizamos la operacion*/
 
                     Random ran = new Random();
                     int x = ran.nextInt(16) + 5;
