@@ -1,3 +1,5 @@
+//Servidor recibe 2 números del cliente y el servidor devuelve la suma.
+
 import java.io.*;
 import java.net.*;
 public class Servidor {
